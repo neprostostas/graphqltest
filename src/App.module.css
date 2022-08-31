@@ -1,0 +1,49 @@
+.App {
+    margin-bottom: 20px;
+}
+
+.loading {
+    display: grid;
+    justify-items: center;
+}
+
+.title {
+    margin: 10px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.wrapperUsersData {
+    display: grid;
+    justify-items: center;
+}
+
+.usersData {
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+    margin: 0;
+}
+
+.userData {
+    cursor: pointer;
+    border: 1px solid hsla(0, 0%, 76.9%, .01);
+    box-shadow: 0 1px 4px hsl(0deg 0% 77% / 60%);
+    border-radius: 30px;
+    background: #dfe7ff;
+    padding: 20px;
+}
+
+.userData:hover {
+    position: relative;
+    top: 2px;
+}
+
+.userData li span {
+    font-weight: 600;
+}
+
+.spanThick {
+    font-weight: 500 !important;
+    font-style: italic;
+}
